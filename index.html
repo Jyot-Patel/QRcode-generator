@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>QR Code generator</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <h1 id='title'>QR Code Generator</h1>
+   <canvas id="qr"></canvas>
+
+   <script src="qrious.js"></script>
+   <script>
+      (function () {
+         var qrCodeData = prompt("Type what you want in QR Code:")
+         var qr = new QRious({
+            element: document.getElementById('qr'),
+            value: qrCodeData,
+            background: "white",
+            foreground: "black",
+            size: 300
+         });
+      })();
+   </script>
+</body>
+
+</html>
