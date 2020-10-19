@@ -13,5 +13,14 @@ html,body{
    color:black;
    text-shadow: 1px 1px 10px red;
    font-family: 'Courier New', Courier, monospace;
-   font-size: 3rem;
+   font-size: 10rem;
+}
+
+@media(min-width:900px){
+   #title{
+   color:black;
+   text-shadow: 1px 1px 10px red;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 5rem;
+   }
 }

@@ -13,8 +13,15 @@
 
    <script src="qrious.js"></script>
    <script>
-      (function () {
-         var qrCodeData = prompt("Type what you want in QR Code:")
+      (function a() {
+         
+         var qrCodeData = prompt("Type what you want in QR Code:  (ie. plain text, website URL, numbers,etc..)");
+            if (!qrCodeData) {
+               alert('please enter any text');
+               a();
+            };
+         
+
          var qr = new QRious({
             element: document.getElementById('qr'),
             value: qrCodeData,
