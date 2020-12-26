@@ -1,0 +1,24 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jyot-Patel/QRcode-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jyot-Patel/QRcode-generator/issues"
+  },
+  "homepage": "https://github.com/Jyot-Patel/QRcode-generator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

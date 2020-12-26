@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>QR Code generator</title>
+   <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+   <h1 id='title'>QR Code Generator</h1>
+
+   <form action="/output" method='POST'>
+   <label class="field">   
+      <input required autocomplete="off" type="text" style="margin: 2rem;" name="input" class="field__input" maxlength="1000" placeholder="Type anything here"> 
+      <span class="field__counter"></span><br>
+
+   </label>
+      <button type="submit" class="btn">get QR Code</button>
+   </form>
+<script src="/jkl.js"></script>
+</body>
+
+</html>
